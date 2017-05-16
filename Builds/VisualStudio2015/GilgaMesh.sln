@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{62787652-1239-3FB5-D024-852B12AD1C69}") = "GilgaMesh", "GilgaMesh.vcxproj", "{E3C29F05-E3FD-99E2-1F27-2D9F5A6A6353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3C29F05-E3FD-99E2-1F27-2D9F5A6A6353}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3C29F05-E3FD-99E2-1F27-2D9F5A6A6353}.Debug|Win32.Build.0 = Debug|Win32
+		{E3C29F05-E3FD-99E2-1F27-2D9F5A6A6353}.Release|Win32.ActiveCfg = Release|Win32
+		{E3C29F05-E3FD-99E2-1F27-2D9F5A6A6353}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

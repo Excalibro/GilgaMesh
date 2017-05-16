@@ -1,0 +1,50 @@
+﻿Build started 16.05.2017 18:27:55.
+     1>Project "E:\Script\CppProjects\GilgaMeshV2\Builds\VisualStudio2015\GilgaMesh.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VisualStudio\VC\bin\CL.exe /c /I..\..\JuceLibraryCode /I..\..\..\..\Resources\JUCE\modules /ZI /nologo /W4 /WX- /MP /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D JUCER_VS2015_78A5022=1 /D JUCE_APP_VERSION=1.0.0 /D JUCE_APP_VERSION_HEX=0x10000 /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Debug\\" /Fd"Debug\\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\Ui\MainComponent\MainC_Main.cpp
+         MainC_Main.cpp
+     1>e:\script\cppprojects\gilgameshv2\source\ui\maincomponent\mainc_main.cpp(28): warning C4100: 'g': unreferenced formal parameter
+     1>e:\script\cppprojects\gilgameshv2\source\ui\maincomponent\mainc_main.cpp(38): warning C4100: 'originatingComponent': unreferenced formal parameter
+       Link:
+         C:\Program Files (x86)\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Script\CppProjects\GilgaMeshV2\Builds\VisualStudio2015\Debug\\GilgaMesh.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Debug\\GilgaMesh.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Script\CppProjects\GilgaMeshV2\Builds\VisualStudio2015\Debug\GilgaMesh.lib" /MACHINE:X86 /SAFESEH:NO Debug\resources.res
+         Debug\\Vector2D.obj
+         Debug\\Camera.obj
+         Debug\\PolyObject.obj
+         Debug\\Color.obj
+         Debug\\Transform.obj
+         Debug\\Mesh.obj
+         Debug\\NGon.obj
+         Debug\\Prism.obj
+         Debug\\Triangle.obj
+         Debug\\Vector3D.obj
+         Debug\\Vertex.obj
+         Debug\\Voxel.obj
+         Debug\\VoxelGrid_3D.obj
+         Debug\\GeoLib.obj
+         Debug\\MatLib.obj
+         Debug\\O_Initializer.obj
+         Debug\\Main.obj
+         Debug\\S_Input.obj
+         Debug\\S_Main.obj
+         Debug\\W_Main.obj
+         Debug\\MainC_Main.obj
+         Debug\\MenuC_Viewport_3D.obj
+         Debug\\juce_audio_basics.obj
+         Debug\\juce_audio_devices.obj
+         Debug\\juce_audio_formats.obj
+         Debug\\juce_audio_processors.obj
+         Debug\\juce_core.obj
+         Debug\\juce_cryptography.obj
+         Debug\\juce_data_structures.obj
+         Debug\\juce_events.obj
+         Debug\\juce_graphics.obj
+         Debug\\juce_gui_basics.obj
+         Debug\\juce_gui_extra.obj
+         Debug\\juce_opengl.obj
+         Debug\\juce_video.obj
+         GilgaMesh.vcxproj -> E:\Script\CppProjects\GilgaMeshV2\Builds\VisualStudio2015\Debug\GilgaMesh.exe
+     1>Done Building Project "E:\Script\CppProjects\GilgaMeshV2\Builds\VisualStudio2015\GilgaMesh.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53

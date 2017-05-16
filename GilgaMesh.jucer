@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nzueBu" name="GilgaMesh" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.GilgaMesh" includeBinaryInAppConfig="1"
+              jucerVersion="4.3.0">
+  <MAINGROUP id="NLcYOw" name="GilgaMesh">
+    <GROUP id="{C634A04E-9743-EAD7-E1BF-1A9B28F4083F}" name="Interface"/>
+    <GROUP id="{1FEE6A16-A962-B7D8-C24C-30E5DB1FA8A1}" name="Core">
+      <GROUP id="{423070EB-A281-7AC0-2799-D1E621AF4053}" name="Object">
+        <GROUP id="{DA566836-B4C5-0C6F-8E24-5E3F338715D3}" name="2D">
+          <FILE id="wdU4vu" name="Vector2D.cpp" compile="1" resource="0" file="Source/Core/Object/Vector2D.cpp"/>
+          <FILE id="WCRqoR" name="Vector2D.h" compile="0" resource="0" file="Source/Core/Object/Vector2D.h"/>
+        </GROUP>
+        <GROUP id="{EA272C75-56EC-0DDB-8FAD-AA68AE0D3DAA}" name="Render">
+          <FILE id="aMxFWA" name="Camera.cpp" compile="1" resource="0" file="Source/Core/Object/Camera.cpp"/>
+          <FILE id="ti2zhk" name="Camera.h" compile="0" resource="0" file="Source/Core/Object/Camera.h"/>
+        </GROUP>
+        <GROUP id="{D07677D8-EAE5-5EC4-5B57-6232389F8A65}" name="Abstract">
+          <FILE id="fUSHjJ" name="PolyObject.cpp" compile="1" resource="0" file="Source/Core/Object/PolyObject.cpp"/>
+          <FILE id="ZbIj6M" name="PolyObject.h" compile="0" resource="0" file="Source/Core/Object/PolyObject.h"/>
+          <FILE id="lgZ9Ps" name="Color.cpp" compile="1" resource="0" file="Source/Core/Object/Color.cpp"/>
+          <FILE id="WtGaa0" name="Color.h" compile="0" resource="0" file="Source/Core/Object/Color.h"/>
+          <FILE id="jwq69W" name="Transform.cpp" compile="1" resource="0" file="Source/Core/Object/Transform.cpp"/>
+          <FILE id="RQbTUV" name="Transform.h" compile="0" resource="0" file="Source/Core/Object/Transform.h"/>
+          <FILE id="kDP3ZF" name="Mesh.h" compile="0" resource="0" file="Source/Core/Object/Mesh.h"/>
+          <FILE id="F4UkUt" name="Mesh.cpp" compile="1" resource="0" file="Source/Core/Object/Mesh.cpp"/>
+        </GROUP>
+        <GROUP id="{651FB354-96CE-A57C-13C6-28200E6006FD}" name="3D">
+          <FILE id="y2dsgA" name="NGon.cpp" compile="1" resource="0" file="Source/Core/Object/NGon.cpp"/>
+          <FILE id="CX5LCP" name="NGon.h" compile="0" resource="0" file="Source/Core/Object/NGon.h"/>
+          <FILE id="alKdc8" name="Prism.cpp" compile="1" resource="0" file="Source/Core/Object/Prism.cpp"/>
+          <FILE id="HtpjdM" name="Prism.h" compile="0" resource="0" file="Source/Core/Object/Prism.h"/>
+          <FILE id="Kwfubn" name="Triangle.cpp" compile="1" resource="0" file="Source/Core/Object/Triangle.cpp"/>
+          <FILE id="T6n3pM" name="Triangle.h" compile="0" resource="0" file="Source/Core/Object/Triangle.h"/>
+          <FILE id="OjseEr" name="Vector3D.cpp" compile="1" resource="0" file="Source/Core/Object/Vector3D.cpp"/>
+          <FILE id="uTBnDA" name="Vector3D.h" compile="0" resource="0" file="Source/Core/Object/Vector3D.h"/>
+          <FILE id="rZVGWp" name="Vertex.cpp" compile="1" resource="0" file="Source/Core/Object/Vertex.cpp"/>
+          <FILE id="kaMkT6" name="Vertex.h" compile="0" resource="0" file="Source/Core/Object/Vertex.h"/>
+          <FILE id="BDo0QQ" name="Voxel.cpp" compile="1" resource="0" file="Source/Core/Object/Voxel.cpp"/>
+          <FILE id="qZAIB8" name="Voxel.h" compile="0" resource="0" file="Source/Core/Object/Voxel.h"/>
+          <FILE id="fEfVnj" name="VoxelGrid_3D.cpp" compile="1" resource="0"
+                file="Source/Core/Object/VoxelGrid_3D.cpp"/>
+          <FILE id="BDtAtA" name="VoxelGrid_3D.h" compile="0" resource="0" file="Source/Core/Object/VoxelGrid_3D.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{94B8A6B0-2D8B-2471-1611-2F18847249B4}" name="Library">
+        <FILE id="b1R9w8" name="GeoLib.cpp" compile="1" resource="0" file="Source/Core/Library/GeoLib.cpp"/>
+        <FILE id="AAzvhg" name="GeoLib.h" compile="0" resource="0" file="Source/Core/Library/GeoLib.h"/>
+        <FILE id="vs0pl9" name="MatLib.cpp" compile="1" resource="0" file="Source/Core/Library/MatLib.cpp"/>
+        <FILE id="BTZViB" name="MatLib.h" compile="0" resource="0" file="Source/Core/Library/MatLib.h"/>
+      </GROUP>
+      <GROUP id="{3FA2DBF5-C38C-6F02-7342-000608E91AD6}" name="Operator">
+        <GROUP id="{305338F1-E6BE-91E1-2DCB-11CE262653C4}" name="O_Initializer">
+          <FILE id="qb0F7E" name="O_Initializer.cpp" compile="1" resource="0"
+                file="Source/Core/Operator/O_Initializer.cpp"/>
+          <FILE id="qO3UnO" name="O_Initializer.h" compile="0" resource="0" file="Source/Core/Operator/O_Initializer.h"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{A54E56BD-5851-8855-39AF-12960BAF4FB6}" name="Main">
+      <FILE id="Sk6Dme" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <GROUP id="{907031A1-992C-5D2A-8DFB-05165F1B1A08}" name="Storage">
+      <GROUP id="{2F6B1DDD-87EB-A507-817B-8FE54DBEFC04}" name="S_Input">
+        <FILE id="rL41xS" name="S_Input.cpp" compile="1" resource="0" file="Source/Storage/S_Input.cpp"/>
+        <FILE id="Uqr8Oi" name="S_Input.h" compile="0" resource="0" file="Source/Storage/S_Input.h"/>
+      </GROUP>
+      <GROUP id="{39D96D07-451D-0BAE-17CA-E4DBFD3AFA63}" name="S_Main">
+        <FILE id="GDpDEd" name="S_Main.cpp" compile="1" resource="0" file="Source/Storage/S_Main.cpp"/>
+        <FILE id="OSg3Wi" name="S_Main.h" compile="0" resource="0" file="Source/Storage/S_Main.h"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{66B109DF-D4C7-D0F1-3C82-F07F4027BF48}" name="Ui">
+      <GROUP id="{EF128013-7DBD-0ABE-3AB1-7561F6D3C119}" name="Components">
+        <GROUP id="{B8F4DF15-167B-499D-D074-2C74D5F980CA}" name="C_SplitFrame"/>
+      </GROUP>
+      <GROUP id="{BD677091-D110-A252-0794-E1A49AEC130E}" name="Window">
+        <GROUP id="{474F13F0-3DA0-A24E-3A8E-99D9B19F7C51}" name="W_Main">
+          <FILE id="ydHjbt" name="W_Main.cpp" compile="1" resource="0" file="Source/Ui/Window/W_Main.cpp"/>
+          <FILE id="k75jkW" name="W_Main.h" compile="0" resource="0" file="Source/Ui/Window/W_Main.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{09A7FD66-9321-286B-CC44-A051DDAA8042}" name="MainComponent">
+        <GROUP id="{B4E0C18B-7EF8-9390-AE2D-B5AF3728C7F5}" name="MainC_Main">
+          <FILE id="lRWr4c" name="MainC_Main.cpp" compile="1" resource="0" file="Source/Ui/MainComponent/MainC_Main.cpp"/>
+          <FILE id="Uv4XEa" name="MainC_Main.h" compile="0" resource="0" file="Source/Ui/MainComponent/MainC_Main.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{5AE5276B-26F7-377D-AA94-30CAF5DAADFC}" name="MenuComponent">
+        <GROUP id="{5F8759C5-5D4A-A1FC-5B1D-A0E1B3F56B23}" name="MenuC_Viewport_3D">
+          <FILE id="HsV3YX" name="MenuC_Viewport_3D.cpp" compile="1" resource="0"
+                file="Source/Ui/MenuComponent/MenuC_Viewport_3D.cpp"/>
+          <FILE id="nxQmNN" name="MenuC_Viewport_3D.h" compile="0" resource="0"
+                file="Source/Ui/MenuComponent/MenuC_Viewport_3D.h"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="GilgaMesh"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="GilgaMesh"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Resources/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Resources/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
